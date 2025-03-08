@@ -1,0 +1,43 @@
+     **Command-line arguments allow passing values when running a script**
+
+# Display the script name
+echo "Script Name: $0"
+
+# Display individual arguments
+echo "First Argument: $1"
+echo "Second Argument: $2"
+echo "Third Argument: $3"
+
+# Display the total number of arguments
+echo "Total Arguments: $#"
+
+# Display all arguments as separate words
+echo "All Arguments (\$@): $@"
+
+# Display all arguments as a single string
+echo "All Arguments (\$*): $*"
+
+# Loop through arguments
+echo "Looping through arguments:"
+for arg in "$@"; do
+    echo "  -> $arg"
+done
+
+ **How to Run **
+=== chmod +x demo.txt     # Make script executable
+=== ./demo.sh Hello World 123  # Pass arguments {Hello,World,123}
+
+**Output**
+
+Script Name: ./args_demo.sh
+First Argument: Hello
+Second Argument: World
+Third Argument: 123
+Total Arguments: 3
+All Arguments ($@): Hello World 123
+All Arguments ($*): Hello World 123
+Looping through arguments:
+  -> Hello
+  -> World
+  -> 123
+
