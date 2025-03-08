@@ -1,0 +1,16 @@
+# Bash Automation
+
+## **What is Bash?**
+- **Bash (Bourne Again Shell)** is a command-line interface and scripting language.
+- It is used for automating tasks, file management, and executing system commands.
+
+## **Real-Life Example: Automating Backups**
+- Suppose you have an important file, **"report.txt"**, that you update daily.
+- Instead of manually creating backups, you can use Bash to automate it.
+- This prevents accidental data loss by keeping timestamped backups.
+
+## **Why Use Bash?**
+✅ **Saves time** by automating repetitive tasks  
+✅ **Reduces human errors** in file management  
+✅ **Useful for** system monitoring, backups, and automation  
+
