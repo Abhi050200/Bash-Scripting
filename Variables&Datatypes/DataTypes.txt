@@ -1,0 +1,13 @@
+# Data Types in Bash  
+
+Bash has **no explicit data types**—everything is treated as a **string** but can be used as numbers, arrays, or key-value pairs.  
+
+### Common Types  
+- **Strings**: Default type (`name="Abhi"`)  
+- **Integers**: Used in math (`num=10`, `sum=$((num+5))`)  
+- **Arrays**: Indexed list (`arr=(1 2 "hello")`)  
+- **Associative Arrays**: Key-value pairs (`declare -A dict; dict[foo]="bar"`)  
+- **Booleans**: No direct type, conditions return `0=true`, `1=false`.  
+- **Null**: Empty string (`var=""`) or unset variable.  
+
+**Bash is loosely typed—variables hold any value as a string.**  
