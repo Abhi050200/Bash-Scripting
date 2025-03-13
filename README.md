@@ -37,7 +37,7 @@ Welcome to the **Bash Scripting Learning Guide**! This guide covers essential to
 ---
 
 ## Make your script executable:
-   '''bash   
+    Navigate to your script folder:red   
 - **chmod +x scriptname.sh**
 
 ---
