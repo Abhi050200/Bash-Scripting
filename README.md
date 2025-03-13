@@ -37,9 +37,11 @@ Welcome to the **Bash Scripting Learning Guide**! This guide covers essential to
 ---
 
 ## Make your script executable:
+   '''bash   
 - **chmod +x scriptname.sh**
 
 ---
 
 ## Run the script:
+    '''bash 
 - ./scriptname.sh
